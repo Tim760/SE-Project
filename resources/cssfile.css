@@ -1,0 +1,284 @@
+body{
+	margin: auto;
+	font-family: "Arial";
+	background-color: #48AAAD;
+}
+
+header {
+	font-size: 40px;
+	color: #016064;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	background-color: white;
+	text-align: center;
+}
+
+nav{
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	background-color: #48AAAD;
+
+}
+
+main{
+	position: relative;
+	padding-top:10px;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 60px;
+	background-color: white;
+	min-height: 65vh;
+	color: black;
+}
+
+footer {
+
+top: 100%;
+padding-top:10px;
+padding-left: 15px;
+padding-right: 10px;
+padding-bottom: 10px;
+background-color: #48AAAD;
+position: sticky;
+bottom:0;
+height: 20px;
+color: white;
+float: bottom;
+
+}
+
+#navigation{
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	word-spacing: 20px;
+}
+
+
+nav a:link {
+  color: white;
+text-decoration: none;
+}
+
+nav a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+#searchbar{
+	float: right;
+	font-size: 20px;
+}
+
+#bookbutton img{
+	float:center;
+	margin:auto;
+	width: 300px;
+	height: auto;
+	display: block;
+	padding: 15px;
+}
+
+#bookbutton {
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#username {
+	width: 20em;
+	height: 3em;
+	font-size: 16px;
+}
+
+#pass {
+	width: 20em;
+	height: 3em;
+	font-size: 16px;
+}
+
+#Login {
+	width: 20em;
+	height: 2em;
+	background-color: #016064;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	border: none;
+	font-size: 16px;
+	font-family: "arial";
+	text-align: center;
+	line-height: 1em;
+	padding-top:1em;
+}
+
+#SignUp {
+	width: 15em;
+	height: 2em;
+	background-color: #59788E;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	border: none;
+	font-size: 16px;
+	font-family: "arial";
+	text-align: center;
+	line-height: 1em;
+	padding-top:1em;
+}
+
+table.logintable{
+	background-color: white;
+	padding-top:40px;
+	padding-bottom:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	align-items: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#loginnav{
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+#Logout {
+	width: 150px;
+	height: 1.5em;
+	background-color: #016064;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	border: none;
+	font-size: 16px;
+	font-family: "arial";
+	text-align: center;
+	padding-top: 5px;
+}
+
+table.userdetails{
+	background-color: white;
+	padding-top:40px;
+	padding-bottom:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+table.userdetails td{
+	padding: 10px;
+	font-size: 15px;
+}
+
+table.bookingdetails{
+	background-color: white;
+	padding-top:40px;
+	padding-bottom:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+table.bookingdetails td{
+	padding: 10px;
+	font-size: 16px;
+}
+
+#locfilter {
+	width: 150px;
+	height: 2em;
+	background-color: #016064;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	display: inline-block;
+	border: none;
+	font-size: 16px;
+	font-family: "arial";
+	text-align: center;
+	padding-top: 2px;
+}
+
+#locationtable{
+	margin-top: 20px;
+	font-family: "arial";
+	border-color: transparent;
+}
+
+#locationtable th,td{
+	width: 250px;
+	height: auto;
+	border-color: transparent;
+}
+	
+#locationtable th{
+	background-color: #d0ece7 ;
+	border-bottom-color: black;
+}
+
+.collapsible {
+	background-color: #016064;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+  }
+  
+  .content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+  }
+
+img.small {
+	width: 50px;
+	height: 50px; 
+}
+
+#legend {
+	position: relative;	
+	float: right;	
+	margin-right: 40px;	
+	margin-top: 25px;	
+	font-family: 'Roboto', sans-serif;
+	}
+
+#admin_options{
+	color: black;
+	
+}
+
+#maptitle{
+	text-align: center;
+	
+}
