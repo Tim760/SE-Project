@@ -40,8 +40,10 @@ session_start();
 <input type="text" name="opening_hour" id="operation_hour" placeholder="Operation Hour"><p>
 <label for="Wait-Time"> Estimated Wait Time </label>
 <input type="text" name="waittime" id="waittime" placeholder="Wait Time"><p>
-<label for="Wait-Time"> Phone Number </label>
+<label for="Phone-Number"> Phone Number </label>
 <input type="text" name="phone" id="phone" placeholder="Phone Number"><p>
+<label for="Legend"> Legend Image </label>
+<input type="file" name="legend" ><p>
 <button type="submit">Submit</button>
 </form>
 </main>

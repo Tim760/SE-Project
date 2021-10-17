@@ -88,7 +88,7 @@ function filterTable($query)
                 <tr>
                     <td><?php echo $row['suburb'];?></td>
                     <td><?php echo $row['location'];?></td>
-                    <td><?php echo $row['site_type'];?></td>
+                    <td><?php echo $row['site_type'];?><img src="resources/<?php echo $row['legend'];?>" class="legend-tiny"></td>
 					<td><?php echo $row['waittime'];?></td>
 					<td><button type="button" class="collapsible">More Details</button>
 					<div class="content">

@@ -5,10 +5,11 @@
     $opening_hour = $_POST['opening_hour'];
     $waittime = $_POST['waittime']; 
     $phone = $_POST['phone'];
+    $filename = $_FILES['legend']['name'];
 
 	
 	$db = mysqli_connect("localhost","root","","sepm") or die(mysqli_error($db)); 
-	$q = "insert into location values(null, '$suburb', '$location', '$site_type', '$opening_hour', '$waittime', '$phone')";
+	$q = "insert into location values(null, '$suburb', '$location', '$site_type', '$opening_hour', '$waittime', '$phone', '$filename')";
     mysqli_query($db, $q) or die(mysqli_error($db));
     header("Location:home.php");
     exit(0);

@@ -265,6 +265,13 @@ img.small {
 	height: 50px; 
 }
 
+img.legend-tiny {
+	width: 30px;
+	height: 30px;
+	padding-left: 20px;
+	position: absolute;	
+}
+
 #legend {
 	position: relative;	
 	float: right;	
