@@ -10,7 +10,7 @@ OLD Instructions:
 New Instructions:
 1.) Download and install Xampp in the hardrive (e.g. C:// (not program files)
 2.) Copy paste project folder into "htdocs" (e.g. C:\xampp\htdocs\SE-Project)
-3.) open Xampp using Administrator mode
+3.) open Xampp_control using Administrator mode
 4.) select service modules for Apache and mySQL
 5.) On the right hand side open "Shell"
 6.) copy paste the "sqlfiles.sql" code in the "resources" folder in the terminal and press enter
