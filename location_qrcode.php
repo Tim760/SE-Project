@@ -9,8 +9,8 @@
   <body>
     <!-- (B) Generates QR Code -->
     <div id="printable">
-      <h1>FOO BAR!</h1>
-      <p>Scan QR Code here to show available testing locations.</p>
+      <h1>Test Site QR Code</h1>
+      <p>Scan the QR Code here to sign in to the test site.</p>
       <div id="qrcode"></div>
     </div>
     <button id="qrprint">PRINT</button>
